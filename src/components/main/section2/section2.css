@@ -11,6 +11,8 @@ animation: scalePulse 2s infinite ease-in-out;
     align-items: center;
     justify-content: center;
   position: relative;
+    height: 60vh;
+
 }
 
 @keyframes scalePulse {
