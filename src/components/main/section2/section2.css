@@ -1,0 +1,26 @@
+.section2 img{
+    width: 548px;
+height: 640px;
+position: absolute;
+top: -190px;
+animation: scalePulse 2s infinite ease-in-out;
+
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  position: relative;
+}
+
+@keyframes scalePulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
