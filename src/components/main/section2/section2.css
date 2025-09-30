@@ -1,18 +1,16 @@
-.section2 img{
-    width: 548px;
-height: 640px;
-position: absolute;
-top: -190px;
-animation: scalePulse 2s infinite ease-in-out;
-
+.section2 img {
+  width: 548px;
+  height: 640px;
+  position: absolute;
+  top: -190px;
+  animation: scalePulse 2s infinite ease-in-out;
 }
 .section2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-    height: 60vh;
-
+  height: 60vh;
 }
 
 @keyframes scalePulse {
